@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:url("../img/wallpaperjpg.jpg")
+}
+a{
+  text-decoration:none;
+}
+.header{
+  width:100%;
+  height:100px;
+  background-color:#075347;
+  position:fixed;
+  z-index:5;
+}
+.header_nav{
+  width:70%;
+  height:100px;
+}
+ul {
+  list-style-type: none;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+ul>li>a{
+  text-decoration:none;
+  font-size:23px;
+  color:white;
+  transition:0.3s;
+}
+.logo{
+  display:flex;
+  justify-content:flex-start;
+}
+ul>li>a:hover{
+  color:black;
+  font-size:27px;
+}
+.fon_two{
+  width:100%;
+   height:400px;
+  background:url("../img/fon2.jpg");
+  background-position:center;
+}
+main{
+  width:100%;
+  height:1100px;
+}
+form{
+  margin-top:40px;
+  margin-left:100px;
+  margin-bottom:50px
+  width:700px;
+  height:630px;
+  border:1px solid black;
+  border-radius:3%;
+  padding:50px;
+  padding-top:20px;
+  position:relative;
+  opacity:0.9;
+}
+form h2{
+  color:red;
+  text-align:center;
+  margin-bottom:35px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+form input{
+  width:600px;
+  height:50px;
+  text-aling:left;
+  padding-left:10px;
+  margin-bottom:20px;
+  border:3px solid #075347;
+  border-radius:5px;
+  transition:0.2s;
+  font-size:17px;
+}
+form input:hover{
+  transform:scale(1.02);
+  border:3px solid #075347;
+  text-align:center;
+  color:#075347;
+}
+.fv_actor, .fv_game{
+  font-size:25px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left:100px;
+  margin-top:20px;
+  color:red;
+}
+form select{
+  margin:10px;
+  width:200px;
+  height:30px;
+  font-size:15px;
+  font-family:'Josefin Sans', sans-serif;
+  margin-left:150px;
+}
+.actors,.games{
+  width:300px;
+  height:40px;
+  border:1px solid black;
+  border-radius:5px;
+  font-size:17px;
+  text-align:center;
+  transition:0.3s;
+  background-color:#075347;
+}
+.actors:hover{
+  transform:scale(1.03);
+}
+.games:hover{
+  transform:scale(1.03);
+}
+.send{
+  width:200px;
+  height:50px;
+  padding:20px;
+  text-align:center;
+  border:1px solid black;
+  border-radius:10px;
+  position:absolute;
+  bottom:6%;
+  left:36%;
+  background-color:#075347;
+  font-size:20px;
+  font-family:'Josefin Sans', sans-serif;
+  transition:0.2s;
+}
+.send:hover{
+  transform:scale(1.05);
+}
+.cont{
+  display:flex;
+}
+.iframe_1{
+  margin-left:70px;
+  margin-top:50px;
+}
+.div1{
+  width: 500px;
+  height: 600px;
+  background:url("img/squid.jpg")
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.footer-bottom {
+  background-color:#075347;
+  width: 100%;
+  height:175px;
+  text-align: left;
+  font:35px sans-serif;
+  padding-top:40px;
+  padding-left:5%;
+}
+.footer-bottom p.links{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 15px;
+}
+
+.footer-bottom a {
+  color: white;
+}
+.footer-bottom .links a:before {
+  content: "|";
+  font-size: 20px;
+  left: 0;
+  color: white;
+  padding-right:5px;
+}
+.footer.logo{
+  display:flex;
+  margin:200px;
+}
+.footer-right{
+  width:50%;
+  height:100px;
+  background-color:#075347;
+}
+.footer-bottom{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.footer-right a{
+  font-size:20px;
+  display:block;
+  margin-left:40%;
+  padding-bottom:2px;
+  font-family:'EB Garamond', serif;
+  transition:0.2s;
+}
+footer a{
+  transition:0.2s;
+}
+footer a:hover{
+  color:#3F3E53;
+  font-size:27px;
+}
